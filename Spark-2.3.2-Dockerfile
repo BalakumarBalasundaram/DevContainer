@@ -1,5 +1,5 @@
 #https://github.com/rubensa/docker-ubuntu-tini-desktop
-FROM rubensa/ubuntu-tini-dev
+FROM ubuntu-tini-dev
 
 # Jupyter config
 COPY .devcontainer/jupyter_notebook_config.py /home/${USER_NAME}/.jupyter/
